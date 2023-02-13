@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    overflow-x:hidden
+}
+.index{
+    background-image: url(../multimedia/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-attachment: fixed;
+}
+header h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70px;
+    width: 100%;
+    font-size: 60px;
+    color: #000000;
+    margin-top: 30px;
+}
+.banner img{
+    height: auto;
+    width: 100%;
+}
+.banner{
+    display: flex;
+    max-width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+section img{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transform: .5s ease;
+}
+section img:hover{
+    cursor: crosshair;
+    width: 110%;
+    opacity: 1;
+    filter: contrast(120%);
+}
+a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    display: flex;
+    
+}
+.caja{
+    width: 235px;
+    height: 55px;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    border-left: 2px solid #000000;
+    border-right: 0px solid #000000;
+}
+.caja a{
+    display: block;
+    height: 51px;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    justify-content: space-around;
+    height: 55px;
+    max-width: 100%;
+    background-color: #71aaac;
+    border:2px #000000 solid;
+    align-content: space-evenly;
+    overflow: hidden;
+}
+.nav :hover{
+    background-color: #1b6569;
+
+}
+
+article img{
+    height: 400px;
+    width: 600px;
+    margin: 30px;
+}
+article p{
+    font-size: 30px;
+    color: rgb(1, 2, 2);
+    background-color: rgba(255, 255, 255, 0.384);
+    text-align: left;
+    width: auto;
+}
+.presentacion{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items:center;
+    justify-items: end;
+}
+
+/* aca empieza halo-CE.html*/
+
+.body-ce{
+    background-image: url(../multimedia/fondo-ce.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-attachment: fixed;
+}
+
+/*Informacion Basica*/
+.titulo{
+    text-align: center;
+    margin-top: 15px;
+}
+main h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 45px;
+}
+.pj{
+    display: grid;
+    grid-template-areas:"name ."
+                        "img-name info";
+    grid-template: h2 ;
+    border: red solid;
+    align-items: center;
+    justify-items: center;
+}
+.name{
+    grid-area: name;
+    margin-top: 10px;
+}
+.img-name{
+    grid-area: img-name;
+}
+.info{
+    grid-area: info;
+}
+.body-info{
+    background-image: url(../multimedia/fondo-PJ.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-attachment: fixed;
+}
+.pj p{
+    background-color: #ca623936;
+    color: rgb(0, 0, 0);
+}
+
+/*Empieza la seccion de productos*/
+
+.merch img{
+    height: 400px;
+    width: 400px;
+}
+.merch li{
+    width: 400px;
+    margin: 20px;
+}
+.merch p{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.merch{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+    width: auto;
+}
+.merch-h1{
+    text-align: center;
+    margin: 20px;
+    background-color: #1b65699f;
+}
+.body-productos{
+    background-image: url(../multimedia/fondo-product.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-attachment: fixed;
+}
+.merch li p{
+    background-color: rgba(69, 167, 138, 0.534);
+}
+
+.buzo-blanco img{
+    width: 600px;
+    height: auto;
+}
+.bz{
+    height: 1000px;
+}
+.buzo-blanco{
+    margin: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.info-bz{
+    display: grid;
+    align-content: space-around;
+    border: red solid;
+    height: 800px;
+}
