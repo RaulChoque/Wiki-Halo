@@ -147,7 +147,6 @@ h2{
     justify-items: center;
 }
 .name{
-    grid-area: name;
     margin-top: 10px;
 }
 .img-name{
