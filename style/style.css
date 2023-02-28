@@ -196,6 +196,7 @@ h2{
     text-align: center;
     margin: 20px;
     background-color: #1b65699f;
+    overflow-y: hidden;
 }
 .body-productos{
     background-image: url(../multimedia/fondo-product.jpg);
@@ -207,6 +208,7 @@ h2{
 }
 .merch li p{
     background-color: rgba(69, 167, 138, 0.534);
+
 }
 
 .buzo-blanco img{
