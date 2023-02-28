@@ -64,6 +64,7 @@ section img:hover{
     font-size: 20px;
     display: flex;
     color: #000000;
+    overflow-y: hidden;
 }
 .caja{
     width: 12.5%;
@@ -288,7 +289,7 @@ h2{
         margin-right: 30px;
     }
     div h1{
-        font-size: 35px;
+        font-size: 32px;
     }
     .pj{
         display: flex;
