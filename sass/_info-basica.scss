@@ -1,0 +1,39 @@
+.body-info{
+    background-image: url(../multimedia/fondo-PJ.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-attachment: fixed;
+    main{
+        .titulo{                                                            
+            text-align: center;
+            margin-top: 15px;
+            font-size: 60px;
+        }
+        .pj{
+            display: grid;
+            grid-template-areas:"name ."
+                                "img-name info";
+            grid-template: h2 ;
+            background-color: rgba(150, 52, 52, 0.171);
+            align-items: center;
+            justify-items: center;
+            .name{                                                          
+                margin-top: 10px;
+                font-size: 45px;
+            }
+            .img-name{
+                grid-area: img-name;
+            }
+            .info{
+                grid-area: info;
+            margin: 10px;
+            }
+            p{
+                background-color: #ca623936;
+                color: rgb(0, 0, 0);
+            }
+        }
+    }
+}

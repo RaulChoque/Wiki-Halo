@@ -174,22 +174,27 @@ h2{
 .merch img{
     height: 400px;
     width: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+    align-items: center;
 }
 .merch li{
-    width: 400px;
+    width: 500px;
     margin: 20px;
+    background-color:#1b65699f;
+    
 }
 .merch p{
     font-size: 25px;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:sans-serif
 }
 
 .merch{
     display:grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: auto;
 }
 .merch-h1{
@@ -197,6 +202,8 @@ h2{
     margin: 20px;
     background-color: #1b65699f;
     overflow-y: hidden;
+    color: #000000;
+    font-family:sans-serif
 }
 .body-productos{
     background-image: url(../multimedia/fondo-product.jpg);
@@ -207,7 +214,7 @@ h2{
     background-attachment: fixed;
 }
 .merch li p{
-    background-color: rgba(69, 167, 138, 0.562);
+    background-color: #1b65699f;;
 
 }
 .titulo{
@@ -221,6 +228,52 @@ h2{
 p{
     font-family: 'Oxygen', sans-serif
 }
+
+/*Seccion de Productos*/
+.compras{
+    display: flex;
+    margin: 50px;
+    justify-content: space-evenly;
+    background-color: ;
+}
+.compras h1{
+    font-size: 60px;
+}
+.compras h2{
+    font-size: 40px;
+}
+.compras p{
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    line-height: 40px;
+}
+.compras div{
+    display: grid;
+    width: 500px;
+    height: 600px;
+}
+
+.buzo-blanco{
+    width: 500px;
+    height: 600px;
+    margin: 50px;
+}
+.comprar{
+    height: 50px;
+    font-size: 20px;
+    border: solid 2px black;
+    border-radius: 20px;
+    background-color: rgb(51, 124, 173);
+    color: white;
+    font-family:initial;
+    font-weight: 900;
+    transition: background-color 0.5s;
+}
+.comprar:hover{
+    background-color: #186974;
+    transition: background-color 0.5s;
+}
+
 /*adaptacion a pantallas*/
 
 @media (max-width:800px){
@@ -237,15 +290,16 @@ p{
     }
     .banner .fondoI{
         width: 100%;
-        height:550px;
+        height:40rem;
     }
     .banner .fondoIB{
         width: 100%;
-        height: 550px;
+        height: 40rem;
+        opacity: 100%;
     }
     .banner .fondoCE{
         width: 100%;
-        height: 550px;
+        height: 40rem;
     }
     .banner .compra{
         width: 100%;

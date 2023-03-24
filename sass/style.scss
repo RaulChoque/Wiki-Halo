@@ -1,1 +1,119 @@
-    
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    overflow-x:hidden
+}
+.index{
+    background-image: url(../multimedia/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-attachment: fixed;
+    header{
+        .banner{
+            display: flex;
+            max-width: 100%;
+            height: 400px;
+            margin-bottom: 10px;
+            margin-top: 5px;
+            border: #000000 solid 3px;
+            img{
+                height: auto;
+                width: 100%;
+                border-left: #000000 solid 3px;
+                border-right: #000000 solid 1px;}
+            }
+
+            section{
+                img{
+                    display: grid;
+                    grid-template-columns: auto auto auto auto auto auto auto;
+                    width: 0px;
+                    flex-grow: 1;
+                    object-fit:cover;
+                    opacity: .8;
+                    transform: .5s ease;
+                }
+                section{
+                    img:hover{
+                        cursor: crosshair;
+                        width: 110%;
+                        opacity: 1;
+                        filter: contrast(120%);
+                    }
+                }
+            }
+
+        .nav{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto auto;
+            justify-content: space-around;
+            height: 55px;
+            max-width: 100%;
+            background-color: #71aaacb2;
+            border:2px #000000 solid;
+            align-content: space-evenly;
+            overflow-y: hidden;
+            .caja{
+                width: 12.5%;
+                height: 55px;
+                text-align: center;
+                line-height: 30px;
+                border-left: 2px solid #000000;
+                border-right: 0px solid #000000;
+                a{
+                    display: block;
+                    height: 51px;
+                }
+                .link{
+                    text-decoration: rgb(0, 0, 0);
+                    font-family:'Oxygen', sans-serif;
+                    font-size: 20px;
+                    display: flex;
+                    color: #000000;
+                    overflow-y: hidden;
+                }
+            }
+        }
+
+        .nav :hover{
+            background-color: #1b6569;
+            }
+        div{
+            h1{
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                height: 70px;   
+                width: 100%;
+                font-size: 60px;
+                color: #070606;
+                margin-top: 30px;
+                overflow-y:hidden ;
+            }
+        }
+    }
+    main{
+        article{
+            img{
+                height: 400px;
+                width: 600px;
+                margin: 30px;
+            }
+            p{
+                font-size: 30px;
+                color: rgb(1, 2, 2);
+                background-color: rgba(255, 255, 255, 0.384);
+                text-align: left;
+                width: auto;
+            }
+            .presentacion{
+                display: grid;
+                grid-template-columns: auto auto;
+                align-items:center;
+                justify-items: end;
+            }
+        }
+    }
+}
